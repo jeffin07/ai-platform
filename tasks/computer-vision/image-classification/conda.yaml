@@ -1,4 +1,4 @@
-name: stats
+name: custom_env
 dependencies:
   - python=3.6
   - pip:

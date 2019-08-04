@@ -1,0 +1,9 @@
+name: My Project
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      epochs: {type: int, default: 10}
+    command: "python trainer.py --num_epochs {epochs}"
